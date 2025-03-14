@@ -1,4 +1,4 @@
-<?php
+j<?php
 
 // Incluindo o arquivo "Aula05.php", que contém a definição da classe Circle
 include_once("Aula05.php");
@@ -24,5 +24,7 @@ class CirFilho extends Circle {
 // Criando uma nova instância da classe CirFilho
 $circle = new CirFilho();
 
+
 // Exibindo o valor da circunferência do círculo chamando o método getCircumference()
-echo "perimetro {$circle->getCircumference()}";
+echo "perimetro {$circle->getCircumference()}\n";
+echo $circle->getArea();
